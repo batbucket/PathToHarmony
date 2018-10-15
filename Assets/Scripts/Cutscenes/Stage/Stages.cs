@@ -27,6 +27,19 @@ namespace Cutscenes.Stages {
 						S().AddLeaver("C*risse")
 					};
 					break;
+				case "andysDemo2":
+					return new StageBuilder[] {
+						S().AddActor(CutsceneSide.FarLeft, "BlairActor", "???"),
+						S().SetMessage("<w><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></w>")
+							.SetSpeaker("???"),
+						S().SetMessage("<w><r>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</r></w>")
+							.SetSpeaker("???"),
+						S().SetMessage("<w><u>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</u></w>")
+							.SetSpeaker("???"),
+						S().SetMessage("<w><c>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</c></w>")
+							.SetSpeaker("???")
+						};
+					break;
 				case "tutorialEnd":
 					return new StageBuilder[] {
 						S().AddActor(CutsceneSide.FarLeft, "BlairActor", "Blair"),

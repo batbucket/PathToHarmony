@@ -59,7 +59,7 @@ namespace Cutscenes.Stages {
 		/// </summary>
 		public void Start() {
 			if (SceneManager.GetActiveScene().name == "Story Test") {
-				startCutscene("andysDemo");
+				startCutscene("andysDemo2");
 			}
 		}
 
